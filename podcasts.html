@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amy Does Philosophy</title>
+    <style>
+        body {
+            font-family: Constantia, serif;
+            background-color: rgb(246, 244, 231);
+            font-size: 0.75em;
+        }
+        
+        h1 {
+            font-family: Constantia, serif;
+            font-size: 5em;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Corbel, sans-serif; 
+            font-size: 2.25em;
+            text-align: right;
+            margin-right: 1em;
+            float: right;
+        }
+
+        h3 {
+            font-family: Constantia, serif;
+            font-size: 2.5em;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding-right: 0.75em;
+        }
+        
+        p {
+            font-family: Corbel, sans-serif;
+            font-size: 1.8em;
+            text-align: justify;
+            margin-right: 1em;
+            float: right;
+            clear: both;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+
+        .column1 {
+            flex-basis: 23em;
+            display: grid;
+            grid-template-rows: repeat(4, 5.5em);
+            grid-gap: 0;
+        }
+
+        .rectanglep1 {
+            width: 37em;
+            height: 5.5em;
+            background-color: rgb(200, 54, 125);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectanglep2 {
+            width: 27em;
+            height: 5.5em;
+            background-color: rgb(200, 54, 125);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectangleg1 {
+            width: 37em;
+            height: 5.5em;
+            background-color: rgb(125, 132, 55);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectangleg2 {
+            width: 27em;
+            height: 5.5em;
+            background-color: rgb(125, 132, 55);
+            border-radius: 6.5em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.5em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .column2 {
+            flex-basis: 37em;
+            padding-left: 3em; 
+            
+        }
+
+        .column3 {
+            flex-basis: 23em;
+            flex-grow: 0.60;
+            justify-content: center; 
+            align-content: center;
+            margin-left: 5em;
+        }
+
+        .column3 img {
+            max-width: 20em;
+            height: auto;    
+        }
+
+        @media (max-width: 48em) {
+            .column1, 
+            .column2,
+            .column3 {
+                flex-basis: 100%;
+                margin: 1em; 
+            }
+        } 
+
+    </style>
+</head>
+<body>
+    <h1>Amy Does Philosophy</h1>
+    <div class="container">
+        <div class="column1">
+            <a href="index.html">
+                <div class="rectanglep2">
+                    <h3>This is Amy</h3>
+                </div>
+            </a>
+            <a href="podcasts.html">
+                <div class="rectangleg1">
+                    <h3>Podcasts</h3>
+                </div>
+            </a>
+            <a href="projects.html">
+                <div class="rectanglep2">
+                    <h3>Projects</h3>
+                </div>
+            </a>
+            <a href="contact.html">
+                <div class="rectangleg2">
+                    <h3>Contact</h3>
+                </div>
+            </a>
+        </div>
+        <div class="column2">
+            <h2>Podcasting</h2>
+            <p>I have created & produced three podcasts (with help). The first was a pet-project with my sister (no longer available online).  The second & third podcasts came into being thanks to student research grants in 2019 & 2020 at Mount Allison University.<br><br>
+<a href="https://convincedbelief.podbean.com/">Listen to Convinced</a>, a podcast about religious belief featuring interviews with several Christian leaders in and around Sackville, New Brunswick.<br><br><a href="http://www.womeninparenthesis.co.uk/curated-resources/podcasts/">Listen to the In Parenthesis Podcast</a>, made in collaboration with Women in Parenthesis, about the philosophy of four important thinkers in the 20thc: Mary Midgley, Iris Murdoch, Philippa Foot, & Elizabeth Anscombe. 
+</p> 
+        </div>
+        <div class="column3">
+            <img src="Img/Amy.jpeg" alt="Amy Ward" style="max-width: 100%; max-height: 100%;">
+        </div>
+    </div>
+</body>
+</html>
+

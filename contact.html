@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amy Does Philosophy</title>
+    <style>
+        body {
+            font-family: Constantia, serif;
+            background-color: rgb(246, 244, 231);
+            font-size: 0.75em;
+        }
+        
+        h1 {
+            font-family: Constantia, serif;
+            font-size: 5em;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Corbel, sans-serif; 
+            font-size: 2.25em;
+            text-align: right;
+            margin-right: 1em;
+            float: right;
+        }
+
+        h3 {
+            font-family: Constantia, serif;
+            font-size: 2.5em;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding-right: 0.75em;
+        }
+        
+        p {
+            font-family: Corbel, sans-serif;
+            font-size: 1.8em;
+            text-align: justify;
+            margin-right: 1em;
+            float: right;
+            clear: both;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+
+        .column1 {
+            flex-basis: 23em;
+            display: grid;
+            grid-template-rows: repeat(4, 5.5em);
+            grid-gap: 0;
+        }
+
+        .rectanglep1 {
+            width: 37em;
+            height: 5.5em;
+            background-color: rgb(200, 54, 125);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectanglep2 {
+            width: 27em;
+            height: 5.5em;
+            background-color: rgb(200, 54, 125);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectangleg1 {
+            width: 37em;
+            height: 5.5em;
+            background-color: rgb(125, 132, 55);
+            border-radius: 6.25em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.25em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .rectangleg2 {
+            width: 27em;
+            height: 5.5em;
+            background-color: rgb(125, 132, 55);
+            border-radius: 6.5em;
+            border: 0.15em solid black;
+            position: relative;
+            left: -6.5em;
+            display: grid;
+            align-items: center;
+            justify-items: end;
+        }
+
+        .column2 {
+            flex-basis: 37em;
+            padding-left: 3em; 
+            
+        }
+
+        .column3 {
+            flex-basis: 23em;
+            flex-grow: 0.60;
+            justify-content: center; 
+            align-content: center;
+            margin-left: 5em;
+        }
+
+        .column3 img {
+            max-width: 20em;
+            height: auto;    
+        }
+
+        @media (max-width: 48em) {
+            .column1, 
+            .column2,
+            .column3 {
+                flex-basis: 100%;
+                margin: 1em; 
+            }
+        } 
+
+    </style>
+</head>
+<body>
+    <h1>Amy Does Philosophy</h1>
+    <div class="container">
+        <div class="column1">
+            <a href="index.html">
+                <div class="rectanglep2">
+                    <h3>This is Amy</h3>
+                </div>
+            </a>
+            <a href="podcasts.html">
+                <div class="rectangleg2">
+                    <h3>Podcasts</h3>
+                </div>
+            </a>
+            <a href="projects.html">
+                <div class="rectanglep2">
+                    <h3>Projects</h3>
+                </div>
+            </a>
+            <a href="contact.html">
+                <div class="rectangleg1">
+                    <h3>Contact</h3>
+                </div>
+            </a>
+        </div>
+        <div class="column2">
+            <h2>Contact</h2>
+            <p>Thanks for visiting. If you want to talk about any past projects or if you have ideas for future collaboration, please drop me a line. <a href="mailto:award09@uoguelph.ca?subject=I%20Saw%20Your%20Website.">You can email me here.</a><br><br><br><br><br>
+</p> 
+        </div>
+        <div class="column3">
+            <img src="Img/Amy.jpeg" alt="Amy Ward" style="max-width: 100%; max-height: 100%;">
+        </div>
+    </div>
+</body>
+</html>
+
