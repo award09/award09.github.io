@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+amydoesphilosophy.ca
+=======
+amydoesphilosophy.ca
+>>>>>>> 6784be539c03ca96dfb15dd3fb2ac96f2051a78a
